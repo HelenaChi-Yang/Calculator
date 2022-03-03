@@ -1,0 +1,10 @@
+C:\Users\user1\桌面\Calculator\LocalDB\bin\Debug\LocalDB.dll
+C:\Users\user1\桌面\Calculator\LocalDB\bin\Debug\LocalDB.pdb
+C:\Users\user1\桌面\Calculator\LocalDB\bin\Debug\Calculator.exe
+C:\Users\user1\桌面\Calculator\LocalDB\bin\Debug\Calculator.pdb
+C:\Users\user1\桌面\Calculator\LocalDB\bin\Debug\Calculator.exe.config
+C:\Users\user1\桌面\Calculator\LocalDB\obj\Debug\LocalDB.csprojAssemblyReference.cache
+C:\Users\user1\桌面\Calculator\LocalDB\obj\Debug\LocalDB.csproj.CoreCompileInputs.cache
+C:\Users\user1\桌面\Calculator\LocalDB\obj\Debug\LocalDB.csproj.CopyComplete
+C:\Users\user1\桌面\Calculator\LocalDB\obj\Debug\LocalDB.dll
+C:\Users\user1\桌面\Calculator\LocalDB\obj\Debug\LocalDB.pdb

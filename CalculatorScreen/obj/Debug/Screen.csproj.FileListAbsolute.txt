@@ -1,0 +1,7 @@
+C:\Users\user1\source\repos\Calculator\CalculatorScreen\obj\Debug\Screen.Form1.resources
+C:\Users\user1\source\repos\Calculator\CalculatorScreen\obj\Debug\CalculatorScreen.Screen.resources
+C:\Users\user1\source\repos\Calculator\CalculatorScreen\obj\Debug\CalculatorScreen.Properties.Resources.resources
+C:\Users\user1\source\repos\Calculator\CalculatorScreen\obj\Debug\Screen.csproj.GenerateResource.cache
+C:\Users\user1\source\repos\Calculator\CalculatorScreen\obj\Debug\Screen.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\Calculator\CalculatorScreen\obj\Debug\CalculatorScreen.exe
+C:\Users\user1\source\repos\Calculator\CalculatorScreen\obj\Debug\CalculatorScreen.pdb

@@ -1,0 +1,40 @@
+C:\Users\user1\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\user1\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\user1\source\repos\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\user1\source\repos\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\user1\source\repos\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\user1\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\user1\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\user1\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\user1\source\repos\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\user1\桌面\1Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\user1\桌面\1Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\user1\桌面\1Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\user1\桌面\1Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\user1\桌面\1Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\user1\桌面\1Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\user1\桌面\1Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\user1\桌面\1Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\user1\桌面\1Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\user1\桌面\1Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\bin\Debug\Calculator.exe
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\bin\Debug\Calculator.pdb
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\obj\Debug\Calculator.exe
+C:\Users\user1\桌面\新增資料夾\1Calculator - 改完ExpressionSolver\Calculator\obj\Debug\Calculator.pdb
+C:\Users\user1\桌面\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\user1\桌面\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\user1\桌面\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.pdb
