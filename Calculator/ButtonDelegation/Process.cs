@@ -50,7 +50,7 @@ namespace Calculator.ButtonDelegation
             if (calculator.OperationsList.Count != 0)
             {
                 Type lastType = calculator.OperationsList[calculator.OperationsList.Count - 1].GetType();
-                if (lastType.BaseType == typeof(Operator))
+                if (lastType.BaseType == typeof(Operator) || lastType == typeof(RightParenthesis))
                 {
                     calculator.OperationsList.Add(new Number(calculator.ScreenNumber));
                     calculator.ExpressionSolver.BuildFinalTree(new Number(calculator.ScreenNumber), calculator);

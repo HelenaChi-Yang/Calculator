@@ -28,7 +28,7 @@ namespace Calculator.BinaryExpressionTree
         /// 斷開上一個運算子node的前面運算子
         /// </summary>
         private Node BeforePreviousOperator;
-
+        
         /// <summary>
         /// 建構子
         /// </summary>
