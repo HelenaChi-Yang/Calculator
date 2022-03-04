@@ -11,7 +11,7 @@ namespace Calculator.Operation.Operators
     /// <summary>
     /// 運算子
     /// </summary>
-    [Serializable]
+    /// 
     public abstract class Operator : Operations
     {
         /// <summary>

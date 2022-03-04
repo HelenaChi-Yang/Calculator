@@ -79,7 +79,7 @@ namespace Calculator.ButtonDelegation
         /// <param name="buttonSign">按鈕符號</param>
         public void PressNumber(TheCalculator calculator, string buttonSign)
         {
-            if(calculator.OperationsList.Count == 0)
+            if (calculator.OperationsList.Count == 0)
             {
                 calculator.Number.Append(buttonSign);
                 calculator.ScreenNumber = calculator.Number.ToString();
@@ -256,7 +256,7 @@ namespace Calculator.ButtonDelegation
         /// <param name="buttonSign">按鈕符號</param>
         public void PressLeftParenthesis(TheCalculator calculator, string buttonSign)
         {
-            if(calculator.OperationsList.Count == 0)
+            if (calculator.OperationsList.Count == 0)
             {
                 calculator.OperationsList.Add(new LeftParenthesis());
                 calculator.ExpressionSolver.ExpressionWeight += 10;

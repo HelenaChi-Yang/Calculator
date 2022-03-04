@@ -12581,11 +12581,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\桌面\\Calculator\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\Calculator\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\user1\\桌面\\Calculator\\API\\API.csproj",
+      "projectPath": "C:\\Users\\user1\\Calculator\\API\\API.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\桌面\\Calculator\\API\\obj\\",
+      "outputPath": "C:\\Users\\user1\\Calculator\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -12606,11 +12606,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\user1\\桌面\\Calculator\\Calculator\\Calculator.csproj": {
-              "projectPath": "C:\\Users\\user1\\桌面\\Calculator\\Calculator\\Calculator.csproj"
+            "C:\\Users\\user1\\Calculator\\Calculator\\Calculator.csproj": {
+              "projectPath": "C:\\Users\\user1\\Calculator\\Calculator\\Calculator.csproj"
             },
-            "C:\\Users\\user1\\桌面\\Calculator\\LocalDB\\LocalDB.csproj": {
-              "projectPath": "C:\\Users\\user1\\桌面\\Calculator\\LocalDB\\LocalDB.csproj"
+            "C:\\Users\\user1\\Calculator\\LocalDB\\LocalDB.csproj": {
+              "projectPath": "C:\\Users\\user1\\Calculator\\LocalDB\\LocalDB.csproj"
             }
           }
         }

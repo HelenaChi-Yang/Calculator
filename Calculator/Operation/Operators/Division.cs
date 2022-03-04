@@ -11,7 +11,6 @@ namespace Calculator.Operation.Operators
     /// <summary>
     /// 除法
     /// </summary>
-    [Serializable]
     public class Division : Operator
     {
         /// <summary>

@@ -15,7 +15,6 @@ namespace Calculator
     /// <summary>
     /// 運算式運算器
     /// </summary>
-    [Serializable]
     public class ExpressionSolver
     {
         /// <summary>
@@ -31,7 +30,7 @@ namespace Calculator
         /// <summary>
         /// 樹
         /// </summary>
-        private Tree tree;
+        private Tree Tree;
 
         /// <summary>
         /// 建構子
@@ -39,7 +38,7 @@ namespace Calculator
         public ExpressionSolver()
         {
             ExpressionWeight = 0;
-            tree = new Tree();
+            Tree = new Tree();
         }
 
         /// <summary>
@@ -51,32 +50,33 @@ namespace Calculator
         /// <param name="isPreviousRootTree">是否回前一棵樹以更改運算元</param>
         public void BuildTree(TheCalculator calculator, Number currentNumber, Operator currentOperator, bool isPreviousRootTree)
         {
-            Tree.Node currentNumberNode = tree.NewNode(currentNumber, currentNumber.Priority);
-            Tree.Node currentOperatorNode = tree.NewNode(currentOperator, currentOperator.Priority + ExpressionWeight);
+            Tree.Node currentNumberNode = Tree.NewNode(currentNumber, currentNumber.Priority);
+            Tree.Node currentOperatorNode = Tree.NewNode(currentOperator, currentOperator.Priority + ExpressionWeight);
             if (!isPreviousRootTree)
             {
-                RootTree = tree.InsertNumberIntoTree(RootTree, currentNumberNode);
-                RootTree = tree.InsertOperatorIntoTree(RootTree, currentOperatorNode, RootTree);
+                RootTree = Tree.InsertNumberIntoTree(RootTree, currentNumberNode);
+                RootTree = Tree.InsertOperatorIntoTree(RootTree, currentOperatorNode, RootTree);
                 return;
             }
-            tree.BackToPreviousTree(RootTree, calculator);
-            RootTree = tree.InsertNumberIntoTree(RootTree, currentNumberNode);
-            RootTree = tree.InsertOperatorIntoTree(RootTree, currentOperatorNode, RootTree);
+            Tree.BackToPreviousTree(RootTree, this);
+            RootTree = Tree.InsertNumberIntoTree(RootTree, currentNumberNode);
+            RootTree = Tree.InsertOperatorIntoTree(RootTree, currentOperatorNode, RootTree);
         }
 
         /// <summary>
         /// 建構最終樹
         /// </summary>
         /// <param name="currentNumber">目前數字</param>
+        /// <param name="calculator">計算機</param>
         public void BuildFinalTree(Number currentNumber, TheCalculator calculator)
         {
             if (!(CheckDenominatorIsZero(calculator)))
             {
-                Tree.Node currentNumberNode = tree.NewNode(currentNumber, currentNumber.Priority);
-                RootTree = tree.InsertNumberIntoTree(RootTree, currentNumberNode);
+                Tree.Node currentNumberNode = Tree.NewNode(currentNumber, currentNumber.Priority);
+                RootTree = Tree.InsertNumberIntoTree(RootTree, currentNumberNode);
 
-                List<Operations> postorderOperation = tree.PostorderTraversal(RootTree, new List<Operations>());
-                decimal result = tree.PostfixResult(postorderOperation);
+                List<Operations> postorderOperation = Tree.PostorderTraversal(RootTree, new List<Operations>());
+                decimal result = Tree.PostfixResult(postorderOperation);
                 calculator.UpdateCalculator();
                 calculator.ScreenNumber = result.ToString();
             }

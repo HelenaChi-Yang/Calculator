@@ -9,7 +9,6 @@ namespace Calculator
     /// <summary>
     /// 運算符號介面
     /// </summary>
-    [Serializable]
     public abstract class Operations
     {
         /// <summary>

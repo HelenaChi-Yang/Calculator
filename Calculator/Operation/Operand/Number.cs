@@ -10,7 +10,6 @@ namespace Calculator.Operation.Operand
     /// <summary>
     /// 數字
     /// </summary>
-    [Serializable]
     public class Number : Operations
     {
         /// <summary>

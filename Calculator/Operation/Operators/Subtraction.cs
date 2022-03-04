@@ -11,7 +11,6 @@ namespace Calculator.Operation.Operators
     /// <summary>
     /// 減法
     /// </summary>
-    [Serializable]
     public class Subtraction : Operator
     {
         /// <summary>

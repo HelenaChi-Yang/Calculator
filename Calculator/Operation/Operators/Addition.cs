@@ -11,7 +11,6 @@ namespace Calculator.Operation.Operators
     /// <summary>
     /// 加法
     /// </summary>
-    [Serializable]
     public class Addition : Operator
     {
         /// <summary>

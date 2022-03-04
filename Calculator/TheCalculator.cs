@@ -100,6 +100,7 @@ namespace Calculator
         /// 目前數字
         /// </summary>
         /// <param name="theCalculator">計算機</param>
+        /// <returns></returns>
         public string CreateOperand(TheCalculator theCalculator)
         {
             if (string.IsNullOrEmpty(theCalculator.ErrorMessage))
@@ -115,11 +116,11 @@ namespace Calculator
         /// 目前算式
         /// </summary>
         /// <param name="operationsList">運算式</param>
-        /// /// <returns></returns>
+        /// <returns></returns>
         public string CreateExpression(List<Operations> operationsList)
         {
             StringBuilder stringBuilder = new StringBuilder();
-            foreach(var operation in operationsList)
+            foreach (var operation in operationsList)
             {
                 stringBuilder.Append(operation.Sign);
             }

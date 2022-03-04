@@ -11,7 +11,6 @@ namespace Calculator.Operation.Operators
     /// <summary>
     /// 乘法
     /// </summary>
-    [Serializable]
     public class Multiplication : Operator
     {
         /// <summary>

@@ -14,12 +14,24 @@ namespace Calculator.BinaryExpressionTree
     /// </summary>
     public class Tree
     {
+        /// <summary>
+        /// 上一個數字node
+        /// </summary>
         private Node PreviousNumber;
 
+        /// <summary>
+        /// 上一個運算子node
+        /// </summary>
         private Node PreviousOperator;
 
+        /// <summary>
+        /// 斷開上一個運算子node的前面運算子
+        /// </summary>
         private Node BeforePreviousOperator;
 
+        /// <summary>
+        /// 建構子
+        /// </summary>
         public Tree()
         {
             PreviousNumber = new Node();
@@ -30,8 +42,8 @@ namespace Calculator.BinaryExpressionTree
         }
 
         /// <summary>
-    /// 內部類別 Node
-    /// </summary>
+        /// 內部類別 Node
+        /// </summary>
         public class Node
         {
             /// <summary>
@@ -59,6 +71,7 @@ namespace Calculator.BinaryExpressionTree
         /// 新增node節點
         /// </summary>
         /// <param name="operation">運算式</param>
+        /// <param name="weight">權重</param>
         /// <returns>Node</returns>
         public Node NewNode(Operations operation, int weight)
         {
@@ -74,13 +87,13 @@ namespace Calculator.BinaryExpressionTree
         /// 恢復上一次根樹
         /// </summary>
         /// <param name="root">根樹</param>
-        /// <returns></returns>
-        public void BackToPreviousTree(Node root, TheCalculator calculator)
+        /// <param name="expressionSolver">算式處理器</param>
+        public void BackToPreviousTree(Node root, ExpressionSolver expressionSolver)
         {
             //刪除上一個數字node
             DeletePreviousNumber(PreviousNumber, root);
             //找到beforeAddress，rightNode = PreviousOperator.leftNode
-            BackToPrevious(BeforePreviousOperator, root, calculator);
+            BackToPrevious(BeforePreviousOperator, root, expressionSolver);
         }
 
         /// <summary>
@@ -91,7 +104,7 @@ namespace Calculator.BinaryExpressionTree
         /// <returns></returns>
         public Node InsertNumberIntoTree(Node root, Node currentNumber)
         {
-            if(root == null)
+            if (root == null)
             {
                 PreviousNumber = currentNumber;
                 return currentNumber;
@@ -108,11 +121,11 @@ namespace Calculator.BinaryExpressionTree
         /// </summary>
         /// <param name="root">根樹</param>
         /// <param name="currentOperator">目前要插入的運算子</param>
+        /// <param name="beforeNode">斷開前的運算子</param>
         /// <returns></returns>
-
         public Node InsertOperatorIntoTree(Node root, Node currentOperator, Node beforeNode)
         {
-            if(root.Weight >= currentOperator.Weight)
+            if (root.Weight >= currentOperator.Weight)
             {
                 BeforePreviousOperator = beforeNode;
                 //預防第一個運算子就按下換運算符，這時beforeNode，會是特例(上一個數字node)
@@ -134,7 +147,7 @@ namespace Calculator.BinaryExpressionTree
         /// <summary>
         /// 刪掉上一個node number
         /// </summary>
-        /// <param name="inputAddress">輸入地址</param>
+        /// <param name="inputNode">輸入地址</param>
         /// <param name="root">根樹</param>
         private void DeletePreviousNumber(Node inputNode, Node root)
         {
@@ -161,22 +174,23 @@ namespace Calculator.BinaryExpressionTree
         /// <summary>
         /// 把原本運算子刪掉後，beforeNode右腳接上原本運算子的左腳
         /// </summary>
-        /// <param name="inputAddress">樹入地址</param>
+        /// <param name="inputNode">樹入地址</param>
         /// <param name="root">根樹</param>
-        private void BackToPrevious(Node inputNode, Node root, TheCalculator calculator)
+        /// <param name="expressionSolver">算式處理器</param>
+        private void BackToPrevious(Node inputNode, Node root, ExpressionSolver expressionSolver)
         {
             if (Object.ReferenceEquals(inputNode, root))
             {
                 //預防第一個運算子就按下換運算符，這時beforeNode，會是特例(上一個數字node)
                 if (root.RightNode == null)
                 {
-                    calculator.ExpressionSolver.RootTree = null;
+                    expressionSolver.RootTree = null;
                     return;
                 }
                 root.RightNode = null;
                 return;
             }
-            if(Object.ReferenceEquals(inputNode, root.LeftNode))
+            if (Object.ReferenceEquals(inputNode, root.LeftNode))
             {
                 root = root.LeftNode;
             }
@@ -187,7 +201,7 @@ namespace Calculator.BinaryExpressionTree
                     root.RightNode = PreviousOperator.LeftNode;
                     return;
                 }
-                BackToPrevious(inputNode, root.RightNode, calculator);
+                BackToPrevious(inputNode, root.RightNode, expressionSolver);
             }
         }
 

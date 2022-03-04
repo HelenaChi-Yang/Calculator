@@ -38,3 +38,13 @@ C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.csproj.Generate
 C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\user1\桌面\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\user1\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\user1\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\user1\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\user1\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\user1\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\user1\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\user1\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\user1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\user1\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\user1\Calculator\Calculator\obj\Debug\Calculator.pdb
